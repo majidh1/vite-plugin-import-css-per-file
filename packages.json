@@ -1,24 +1,25 @@
 {
-  "name": "vite-plugin-libcss",
-  "description": "This plugin will inject css into bundled js file using `import` statement.",
-  "version": "1.1.1",
+  "name": "vite-plugin-import-css-per-file",
+  "description": "This plugin will inject css into bundled js file using import statement. per files",
+  "version": "1.0.0",
   "main": "index.js",
   "types": "index.d.ts",
-  "author": "wxsms@foxmail.com",
+  "author": "Majid Houshyar",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wxsms/vite-plugin-libcss.git"
+    "url": "git+https://github.com/majidh1/vite-plugin-import-css-per-file.git"
   },
   "bugs": {
-    "url": "https://github.com/wxsms/vite-plugin-libcss/issues"
+    "url": "https://github.com/majidh1/vite-plugin-import-css-per-file/issues"
   },
-  "homepage": "https://github.com/wxsms/vite-plugin-libcss#readme",
+  "homepage": "https://github.com/majidh1/vite-plugin-import-css-per-file#readme",
   "keywords": [
     "vite",
     "plugin",
-    "lib",
+    "css-per-file",
+    "vite-lib",
     "css"
   ],
   "devDependencies": {
