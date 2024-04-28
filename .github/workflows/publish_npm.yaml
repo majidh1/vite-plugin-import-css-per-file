@@ -3,7 +3,9 @@ name: publish npm
 on:
   push:
     tags:
-      - 'v*'
+      - 'version: *'
+  workflow_dispatch:
+    
 
 jobs:
   deploy_npm:
