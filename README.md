@@ -1,3 +1,5 @@
+[![publish npm](https://github.com/majidh1/vite-plugin-import-css-per-file/actions/workflows/publish_npm.yaml/badge.svg)](https://github.com/majidh1/vite-plugin-import-css-per-file/actions/workflows/publish_npm.yaml)
+
 # vite-plugin-import-css-per-file
 This plugin will inject css into bundled js file using `import` statement per file like this:
 
