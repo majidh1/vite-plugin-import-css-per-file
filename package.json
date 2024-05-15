@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-import-css-per-file",
   "description": "This plugin will inject css into bundled js file using import statement. per files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "author": "Majid Houshyar - MAjidH1",
