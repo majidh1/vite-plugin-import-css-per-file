@@ -33,7 +33,7 @@ module.exports = function (options = {}) {
         }
         const cssFile = files.find((v) => v.endsWith('.css') && v.split(".")[0]===file.split(".")[0]);
         if (!cssFile) {
-          return;
+          continue;
         }
         if (options.include && !minimatch(file, options.include)) {
           // check if the file matches the include pattern
